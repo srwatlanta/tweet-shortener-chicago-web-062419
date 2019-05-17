@@ -45,7 +45,7 @@ end
 def shortened_tweet_truncator (tweet)
   newt = word_substituter (tweet)
   if newt.length > 140
-    puts "#{tweet[0..140]}..."
+    "#{tweet[0..140]}..."
   else
     newt
   end
